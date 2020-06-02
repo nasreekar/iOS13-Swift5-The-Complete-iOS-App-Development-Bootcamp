@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView2: UIImageView!
     
     // as the dice array is not changing anywhere in the code,
-    // it is set as 'let' constant instead of 'var' constant
+    // it is set as 'let' instead of 'var'
     let diceArray = [ #imageLiteral(resourceName: "DiceOne") , #imageLiteral(resourceName: "DiceTwo") , #imageLiteral(resourceName: "DiceThree") , #imageLiteral(resourceName: "DiceFour") , #imageLiteral(resourceName: "DiceFive") , #imageLiteral(resourceName: "DiceSix")]
     
     override func viewDidLoad() {
